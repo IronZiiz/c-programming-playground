@@ -46,6 +46,8 @@ int main()
         mediana= (vct[TAM/2] + vct[(TAM/2)-1])/2;
         
         printf("Mediana:%0.2f\n", mediana);
+    }else{
+        mediana = vct[(TAM-1)/2)+1]; 
     }
 
     for (i=0; i<TAM; i++)
@@ -59,23 +61,28 @@ int main()
         }
     }
 
-    for(int i=0; i<TAM; i++){
-        if(maxfreq<vctF[i]){
+    for(int i=0; i<TAM; i++)
+    {
+        if(maxfreq<vctF[i])
+        {
             maxfreq=vctF[i];
         }
     }
 
-    if(maxfreq == 1){
+    if(maxfreq == 1)
+    {
         printf("Amodal");
 
     }else{
         printf("Moda:");
-        for(int i=0; i<TAM; i++){
-            if(maxfreq == vctF[i]){
+        for(int i=0; i<TAM; i++)
+        {
+            if(maxfreq == vctF[i])
+            {
                 printf("%.lf",vct[i]);
             }
         }
     }
-    return 0; 
 
+    return 0; 
 }
