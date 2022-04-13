@@ -1,0 +1,7 @@
+/*Encontre o erro em cada um dos segmentos de programa a seguir e o corrija.
+/*#define TAMANHO 100;*/
+/*b) TAMANHO = 10;*/
+
+
+/*a) Ponto e virgula no final.*/
+/*b) Falta de #define e ponto e virgula no final*/
