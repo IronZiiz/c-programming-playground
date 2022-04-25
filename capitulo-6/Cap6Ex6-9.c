@@ -29,7 +29,6 @@ topo e liste os subscritos das linhas à esquerda de cada linha.*/
 #define TAM2 5 
 
 int defineZero(int x);
-int defineZeroAll(int y);
 
 int main()
 {
@@ -38,6 +37,8 @@ int main()
 
     defineZero(t[1][5]);
 
+    /*Item i*/
+    
     for(i = 0; i <TAM1 ; i++ )
         {
             for(j = 0 ; j < TAM2 ; j++)
@@ -46,6 +47,8 @@ int main()
                     printf("Elemento[%d][%d] = %d\n", i, j , t[i][j]);
                 }
         }
+
+    
 
    
    
